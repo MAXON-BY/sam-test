@@ -1,0 +1,134 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  min-width: 1200px;
+  position: relative;
+  font-size: 16px;
+  line-height: 1.6;
+  font-family: 'GothamPro', sans-serif;
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+section {
+  padding: 100px 0 75px;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+}
+
+h2 {
+  font-size: 36px;
+  font-family: 'GothamProBold',sans-serif;
+  letter-spacing: normal;
+  text-align: center;
+  color: #003f69;
+  text-transform: uppercase;
+  margin: 0;
+  line-height: 1;
+}
+
+h3 {
+  color: #444444;
+  font-size: 20px;
+  font-family: 'GothamProBold',sans-serif;
+}
+
+.btn {
+  background-color: #e07713;
+  border-radius: 5px;
+}
+
+.btn-sub {
+  height: 35px;
+  border: none;
+  border-radius: 5px;
+  background-color: #0a8ac4;
+  color: #fff;
+  font-size: 18px;
+  line-height: 1.44;
+  letter-spacing: normal;
+  padding: 1px 26px;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.btn-sub:hover {
+  background-color: #003f69;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+input {
+  width: 227px;
+  height: 35px;
+  border-radius: 3px;
+  background-color: #ffffff;
+  border: none;
+  font-size: 16px;
+  font-weight: 300;
+  outline: none;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #696969;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-left: 10px;
+}
+
+table {
+  display: block;
+}
